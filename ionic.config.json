@@ -1,0 +1,7 @@
+{
+  "name": "asmr-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
