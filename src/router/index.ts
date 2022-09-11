@@ -1,14 +1,16 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
+import SplashScreen from '../views/SplashScreen.vue';
+import HomeScreen from '../views/HomeScreen.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '',
-    redirect: '/folder/Inbox'
+    component: SplashScreen
   },
   {
-    path: '/folder/:id',
-    component: () => import ('../views/FolderPage.vue')
+    path: '/home',
+    component: HomeScreen
   }
 ]
 
