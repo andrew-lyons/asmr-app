@@ -13,9 +13,9 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'App',
   components: {
-    IonApp, 
-    IonRouterOutlet, 
-    IonSplitPane,
+    IonApp,
+    IonRouterOutlet,
+    IonSplitPane
   }
 });
 </script>

@@ -7,10 +7,8 @@
                     :animationData="animation"
                     :loop="true"
                 />
-    
-                <div class="logo">
-    
-                </div>
+
+                <div class="logo"></div>
             </div>
         </ion-content>
     </ion-page>
@@ -65,7 +63,7 @@ export default defineComponent({
     }
     .wrapper {
         opacity: 0;
-        transition: opacity 0.25s;
+        transition: opacity 0.5s;
 
         &.shown {
             opacity: 1;
